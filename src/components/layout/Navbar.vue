@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import { SunIcon, MoonIcon } from '@heroicons/vue/24/outline'
 import { useAuthStore } from '../../stores/auth'
@@ -28,7 +27,7 @@ const navigation = [
       <div class="flex justify-between h-16">
         <div class="flex items-center">
           <RouterLink to="/" class="text-xl font-bold text-primary-600">
-            Hiring Inbox
+            HireInbox
           </RouterLink>
           <div class="ml-10 flex space-x-4">
             <RouterLink
